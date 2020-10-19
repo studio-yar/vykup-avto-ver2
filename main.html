@@ -1,0 +1,1859 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/select2.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-media.css">
+    <link rel="stylesheet" href="js/rating/rating.css">
+  </head>
+  <body>
+    <div class="wrapper"></div>
+    <header>
+      <div class="header-top">
+        <div class="container">
+          <div class="row">
+            <div class="header-top_content">
+              <div class="navbar"><img class="open" src="images/burger.svg" alt=""><img class="close" src="images/close.svg" alt=""></div>
+              <div class="logo"> <img src="images/logo.png" alt=""></div>
+              <div class="slogan"> <span>Оценка авто онлайн</span></div>
+              <div class="phone"><a href="tel:+74955051005">+7 (495) 505-1005</a><a class="btn popup" href="#callback"> <span>Обратный звонок</span></a><a class="mobile-phone" href="tel:+74955051005"><img src="images/phone.svg" alt=""></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-bottom fixed">
+        <div class="container">
+          <div class="row">
+            <nav> 
+              <ul class="main-menu">
+                <li> <a class="scroll" href="#form-section">Заявка</a></li>
+                <li> <a class="scroll" href="#work-exapmles">Услуги</a></li>
+                <li> <a class="scroll" href="#howtocalc">Расчет цены</a></li>
+                <li> <a class="scroll" href="#stages-section">Этапы выкупа</a></li>
+                <li> <a class="scroll" href="#reviews">Отзывы</a></li>
+                <li> <a class="scroll" href="#examples">Примеры работ</a></li>
+                <li> <a class="scroll" href="#questions">FAQ</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="first-screen">
+      <div class="container">
+        <div class="row">
+          <div class="form-block">
+            <div class="success-mes hidden" id="success1">
+              <div class="message">
+                <div class="title">Заявка принята!</div>
+                <div class="description">Эксперт по оценке свяжется с вами в ближайшее время.</div>
+              </div>
+            </div>
+            <form class="form">
+              <div class="form-header">
+                <div class="form-block__title">Выкуп авто за 2 часа</div>
+                <div class="form-block__description">с моментальной оплатой полной суммы на карту или в кассе банка</div>
+              </div>
+              <div class="attach-fields">
+                <div class="form-block_attach-field">
+                  <label class="pick-file">
+                    <input type="file" name="file" multiple>
+                    <div class="label-block"><span class="label"><span class="image"></span><span class="name">Добавить фото</span></span>
+                      <div class="result" style="display:none;"></div>
+                    </div>
+                  </label>
+                </div>
+                <label class="c-check">
+                  <input type="checkbox" name="polit" value="chchhc" checked="checked" required id="checkbox"><span class="c-check__label"><span class="check"></span><span class="check-agreement">Согласие на обработку Персональных данных</span></span>
+                </label>
+              </div>
+              <div class="fields">
+                <select required id="marks1">
+                  <option></option>
+                  <option value="Audi">Audi</option>
+                  <option value="BMW">BMW</option>
+                  <option value="Caddilac">Caddilac</option>
+                  <option value="Chery">Chery</option>
+                  <option value="Chevrolet">Chevrolet</option>
+                  <option value="Chrysler">Chrysler</option>
+                  <option value="Chrysler">Chrysler</option>
+                  <option value="Chrysler">Chrysler</option>
+                  <option value="Chrysler">Chrysler</option>
+                  <option value="Chrysler">Chrysler</option>
+                  <option value="Chrysler">Chrysler</option>
+                  <option value="Chrysler">Chrysler</option>
+                  <option value="Chrysler">Chrysler</option>
+                  <option value="Chrysler">Chrysler</option>
+                  <option value="Chrysler">Chrysler</option>
+                  <option value="Chrysler">Chrysler</option>
+                  <option value="Chrysler">Chrysler</option>
+                  <option value="Chrysler">Chrysler</option>
+                  <option value="Chrysler">Chrysler</option>
+                  <option value="Chrysler">Chrysler</option>
+                  <option value="Chrysler">Chrysler</option>
+                </select>
+                <select required disabled="disabled" id="models1">
+                  <option></option>
+                  <option value="model1">Модель1</option>
+                  <option value="model2">Модель2</option>
+                  <option value="model3">Модель3</option>
+                  <option value="model4">Модель4</option>
+                  <option value="model5">Модель5</option>
+                  <option value="model6">Модель6</option>
+                  <option value="model7">Модель7</option>
+                  <option value="model8">Модель8</option>
+                  <option value="model9">Модель9</option>
+                  <option value="model10">Модель10</option>
+                  <option value="model11">Модель11</option>
+                  <option value="model12">Модель12</option>
+                  <option value="model13">Модель13</option>
+                  <option value="model14">Модель14</option>
+                  <option value="model15">Модель15</option>
+                  <option value="model16">Модель16</option>
+                  <option value="model17">Модель17</option>
+                </select>
+                <select required disabled="disabled" id="year1">
+                  <option></option>
+                  <option value="year1">2001</option>
+                  <option value="year2">2002</option>
+                  <option value="year3">2003</option>
+                  <option value="year4">2004</option>
+                  <option value="year5">2005</option>
+                  <option value="year6">2006</option>
+                </select>
+                <!--input(type="text", name="year", placeholder="Год выпуска", required)-->
+                <input type="tel" name="phone" placeholder="Ваш телефон*" required id="phone1">
+              </div>
+              <div class="button-field">
+                <button class="btn" type="button">Узнать цену выкупа</button>
+                <button class="hidden-submit" style="display:none" type="submit"></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="advantages">
+      <div class="container">
+        <div class="row">
+          <div class="heading-block">
+            <div class="heading-block__title">Наши преимущества</div>
+          </div>
+          <div class="steps-block">
+            <div class="step-item">
+              <div class="step-item__image"><img src="images/step-icon-1.svg" alt=""></div>
+              <div class="step-item__title">Бесплатная оценка</div>
+              <div class="step-item__desc">Бесплатный выезд оценщика в любое время и место</div>
+            </div>
+            <div class="step-item"> 
+              <div class="step-item__image"><img src="images/step-icon-2.svg" alt=""></div>
+              <div class="step-item__title">Юридическая чистота</div>
+              <div class="step-item__desc">Полное юридическое сопровождение вашей сделки</div>
+            </div>
+            <div class="step-item"> 
+              <div class="step-item__image"><img src="images/step-icon-3.svg" alt=""></div>
+              <div class="step-item__title">Выплата полной суммы</div>
+              <div class="step-item__desc">Выплата полной суммы в день обращения </div>
+            </div>
+            <div class="step-item"> 
+              <div class="step-item__image"><img src="images/step-icon-4.svg" alt=""></div>
+              <div class="step-item__title">Бесплатная эвакуация</div>
+              <div class="step-item__desc">Бесплатно эвакуируем из любой точки Москвы и области</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="work-exapmles">
+      <div class="container">
+        <div class="row">
+          <div class="heading-block">
+            <div class="heading-block__title">Примеры наших работ</div>
+            <div class="heading-block__description">Решаем любые задачи</div>
+          </div>
+        </div>
+      </div>
+      <div class="tabs">
+        <div class="container">
+          <div class="row">
+            <ul class="tabs__caption">
+              <li class="active">Выкуп авто</li>
+              <li>Кредитные авто</li>
+              <li>Битые авто</li>
+            </ul>
+          </div>
+        </div>
+        <div class="tabs__content active">
+          <div class="container">
+            <div class="row">
+              <div class="tab__content-left">
+                <div class="tab__content__title">Задача</div>
+                <div class="tab__content__list-block">
+                  <ul>
+                    <li> <span>Продать автомобиль быстро и легко</span></li>
+                    <li> <span>Отсутсвие желания ездить куда либо </span></li>
+                    <li> <span>Получить всю сумму в рублях на счет банковской карты</span></li>
+                  </ul>
+                </div>
+                <div class="tab__content__title solution">Решение</div>
+                <div class="tab__content__list-block">
+                  <ul>
+                    <li> <span>Обращение в компанию «Автоэксперт»</span></li>
+                    <li> <span>Выезд специалиста для оценки авто</span></li>
+                    <li> <span>Деньги за автомобиль перечислены на счет карты клиента </span></li>
+                    <li> <span>Бесплатная эвакуация авто</span></li>
+                  </ul>
+                </div>
+                <div class="tab__content__phone-block"><a class="tel-link" href="tel:+74955051005">+7 (495) 505-1005</a><a class="btn popup" href="#callback">Хочу также</a></div>
+              </div>
+              <div class="tab__content-right">
+                <div class="example-block">
+                  <div class="example-block__top" style="background-image:url(images/credit-avto-foto.jpg)">
+                    <div class="title">Audi A6 Avant</div>
+                    <div class="info">
+                      <ul>
+                        <li>Год выпуска - 2008</li>
+                        <li>Пробег - 118 000 км.</li>
+                        <li>Статус - срочный выкуп авто</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="example-block__bottom">
+                    <div class="title">Отзыв клиента</div>
+                    <div class="text">Лучше продать машину чуть дешевле, зато средства на руках все сразу и вопросы решены уже сегодня. Машину забрал эвакуатор, а деньги перевели на карту. Очень удобно и быстро. </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tabs__content">
+          <div class="container">
+            <div class="row">
+              <div class="tab__content-left">
+                <div class="tab__content__title">Задача</div>
+                <div class="tab__content__list-block" style="margin-bottom:5px;">
+                  <ul>
+                    <li> <span>Как можно быстрее погасить автокредит </span></li>
+                    <li> <span>Получить остаток на карту Сбербанка</span></li>
+                    <li> <span>Сохранить положительную кредитную историю</span></li>
+                  </ul>
+                </div>
+                <div class="tab__content__title solution">Решение</div>
+                <div class="tab__content__list-block">
+                  <ul>
+                    <li> <span>Выезд специалиста для оценки авто и подготовки документов</span></li>
+                    <li> <span>Полное погашение долга в кредитной организации</span></li>
+                    <li> <span>Перевод остатка на карту клиента</span></li>
+                    <li> <span>Проведение сделки в день обращения</span></li>
+                  </ul>
+                </div>
+                <div class="tab__content__phone-block"><a class="tel-link" href="tel:+74955051005">+7 (495) 505-1005</a><a class="btn popup" href="#callback">Хочу также</a></div>
+              </div>
+              <div class="tab__content-right">
+                <div class="example-block">
+                  <div class="example-block__top" style="background-image:url(images/vikup-avto-foto.jpg)">
+                    <div class="title">Toyota Avensis</div>
+                    <div class="info">
+                      <ul>
+                        <li>Год выпуска - 2006</li>
+                        <li>Пробег - 98 000 км.</li>
+                        <li>Статус - кредитный авто</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="example-block__bottom">
+                    <div class="title">Отзыв клиента</div>
+                    <div class="text">Рекомендую всем. Все быстро и оперативно. Приехал оценщик и назвал стоимость выкупа. Подготовил документы и на следущий день мы закрыли кредит в банке. Остаток получил на карту. </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tabs__content">
+          <div class="container">
+            <div class="row">
+              <div class="tab__content-left">
+                <div class="tab__content__title">Задача</div>
+                <div class="tab__content__list-block" style="margin-bottom:12px;">
+                  <ul>
+                    <li> <span>Максимально дорого продать разбитый автомобиль</span></li>
+                    <li> <span>Не тратить время и усилия на организационные вопросы</span></li>
+                    <li> <span>Получить всю сумму за машину наличными как можно быстрее</span></li>
+                  </ul>
+                </div>
+                <div class="tab__content__title solution">Решение</div>
+                <div class="tab__content__list-block">
+                  <ul>
+                    <li> <span>Предварительная оценка по фотографиям через WhatsApp</span></li>
+                    <li> <span>Выезд специалиста для подготовки документов и эвакуации авто</span></li>
+                    <li> <span>Получение денег в ближайшем отделении банка ВТБ	</span></li>
+                  </ul>
+                </div>
+                <div class="tab__content__phone-block"><a class="tel-link" href="tel:+74955051005">+7 (495) 505-1005</a><a class="btn popup" href="#callback">Хочу также</a></div>
+              </div>
+              <div class="tab__content-right">
+                <div class="example-block">
+                  <div class="example-block__top" style="background-image:url(images/bit-avto-foto.jpg)">
+                    <div class="title">Renault Logan</div>
+                    <div class="info">
+                      <ul>
+                        <li>Год выпуска - 2012</li>
+                        <li>Пробег - 54 000 км.</li>
+                        <li>Статус - битый</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="example-block__bottom">
+                    <div class="title">Отзыв клиента</div>
+                    <div class="text">Позвонил в компанию после ДТП узнать, сколько предложат за авто. Меня цена устроила. Через 1 час подъехал эвакуатор, в этот же день подписали договор и выплатили деньги.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="howtocalc">
+      <div class="container">
+        <div class="row">
+          <div class="heading-block">
+            <div class="heading-block__title">Как считается цена выкупа</div>
+            <div class="heading-block__description">Честная цена за 3 шага</div>
+          </div>
+          <div class="tabs">
+            <ul class="tabs__caption">
+              <li class="active">
+                <div class="circles">
+                  <div class="circle-big"><?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M394.668,0H32.001c-17.673,0-32,14.327-32,32v256c0,17.673,14.327,32,32,32h138.667v-21.333H32.001
+			c-5.891,0-10.667-4.776-10.667-10.667V32c0-5.891,4.776-10.667,10.667-10.667h362.667c5.891,0,10.667,4.776,10.667,10.667v192
+			h21.333V32C426.668,14.327,412.341,0,394.668,0z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="128.001" y="309.333" width="21.333" height="64"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M74.668,256c-5.891,0-10.667-4.776-10.667-10.667V224H42.668v21.333c0,17.673,14.327,32,32,32h21.333V256H74.668z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="42.668" y="181.333" width="21.333" height="21.333"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M389.836,225.941c-21.736-21.74-51.219-33.953-81.961-33.952c-64.006,0.003-115.891,51.892-115.889,115.898
+			c0.003,64.006,51.892,115.891,115.898,115.889c30.732-0.001,60.204-12.208,81.937-33.937
+			C435.084,344.584,435.091,271.205,389.836,225.941z M307.82,402.453c-52.224-0.018-94.546-42.368-94.528-94.592
+			c0.018-52.224,42.368-94.546,94.592-94.528c25.101-0.068,49.184,9.92,66.869,27.733c17.718,17.738,27.667,41.787,27.659,66.859
+			C402.394,360.149,360.044,402.471,307.82,402.453z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M508.876,464l-66.955-66.933c-2-2-4.713-3.125-7.541-3.125c-2.829,0.001-5.541,1.125-7.541,3.125l-29.76,29.76
+			c-4.164,4.165-4.164,10.917,0,15.083l66.955,66.965c2,2.001,4.713,3.125,7.541,3.125v0c2.833-0.009,5.547-1.145,7.541-3.157
+			l29.76-29.76C513.04,474.917,513.04,468.165,508.876,464z M471.574,486.251l-51.872-51.883l14.677-14.677l51.872,51.883
+			L471.574,486.251z"/>
+	</g>
+</g>
+<g>
+	<g>
+		
+			<rect x="390.231" y="374.581" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -166.0486 400.894)" width="21.333" height="52.608"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M309.334,234.667V256c29.441,0.035,53.298,23.893,53.333,53.333h21.333C383.954,268.116,350.552,234.714,309.334,234.667z
+			"/>
+	</g>
+</g>
+<g>
+	<g>
+		<rect x="106.668" y="362.667" width="85.333" height="21.333"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M160.001,42.667c-17.673,0-32,14.327-32,32c0,17.673,14.327,32,32,32s32-14.327,32-32
+			C192.001,56.994,177.674,42.667,160.001,42.667z M160.001,85.333c-5.891,0-10.667-4.776-10.667-10.667
+			c0-5.891,4.776-10.667,10.667-10.667s10.667,4.776,10.667,10.667C170.668,80.558,165.892,85.333,160.001,85.333z"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M234.668,117.333c-17.673,0-32,14.327-32,32c0,17.673,14.327,32,32,32c17.673,0,32-14.327,32-32
+			C266.668,131.66,252.341,117.333,234.668,117.333z M234.668,160c-5.891,0-10.667-4.776-10.667-10.667
+			c0-5.891,4.776-10.667,10.667-10.667c5.891,0,10.667,4.776,10.667,10.667C245.334,155.224,240.559,160,234.668,160z"/>
+	</g>
+</g>
+<g>
+	<g>
+		
+			<rect x="84.956" y="101.336" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -43.269 119.5445)" width="75.424" height="21.333"/>
+	</g>
+</g>
+<g>
+	<g>
+		
+			<rect x="186.623" y="74.317" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -21.4319 172.3178)" width="21.333" height="75.424"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path d="M309.334,42.667c-17.673,0-32,14.327-32,32c0,17.673,14.327,32,32,32c17.673,0,32-14.327,32-32
+			C341.335,56.994,327.008,42.667,309.334,42.667z M309.334,85.333c-5.891,0-10.667-4.776-10.667-10.667
+			c0-5.891,4.776-10.667,10.667-10.667c5.891,0,10.667,4.776,10.667,10.667C320.001,80.558,315.225,85.333,309.334,85.333z"/>
+	</g>
+</g>
+<g>
+	<g>
+		
+			<rect x="234.285" y="101.373" transform="matrix(0.7071 -0.7071 0.7071 0.7071 0.4421 225.1463)" width="75.424" height="21.333"/>
+	</g>
+</g>
+</svg>
+
+                  </div>
+                  <div class="circle-sm"><span>1</span></div>
+                </div>
+                <div class="tab-title">Обзор рынка</div>
+              </li>
+              <li>
+                <div class="circles">
+                  <div class="circle-big"><svg height="512pt" viewBox="-55 0 512 512" width="512pt" xmlns="http://www.w3.org/2000/svg"><path d="m200.554688 512c-2.160157 0-4.316407-.695312-6.117188-2.085938-1.976562-1.527343-49.015625-38.09375-96.785156-94.339843-28.171875-33.171875-50.648438-66.277344-66.8125-98.394531-20.464844-40.671876-30.839844-79.9375-30.839844-116.710938 0-110.539062 89.96875-200.46875 200.554688-200.46875 110.585937 0 200.550781 89.929688 200.550781 200.46875 0 36.773438-10.375 76.039062-30.839844 116.707031-16.160156 32.121094-38.640625 65.222657-66.8125 98.398438-47.769531 56.246093-94.808594 92.808593-96.785156 94.339843-1.800781 1.390626-3.957031 2.085938-6.113281 2.085938zm0-492c-99.558594 0-180.554688 80.957031-180.554688 180.46875 0 76.675781 50.519531 152.257812 92.898438 202.160156 36.574218 43.0625 73.429687 74.816406 87.652343 86.527344 14.261719-11.75 51.304688-43.671875 87.902344-86.820312 42.269531-49.832032 92.652344-125.300782 92.652344-201.867188 0-99.511719-80.996094-180.46875-180.550781-180.46875zm0 0"/><path d="m200.554688 355.199219c-84.566407 0-153.363282-68.769531-153.363282-153.296875 0-84.53125 68.796875-153.300782 153.363282-153.300782 27.449218 0 54.386718 7.339844 77.898437 21.222657 4.753906 2.808593 6.332031 8.941406 3.523437 13.695312-2.804687 4.757813-8.9375 6.335938-13.695312 3.527344-20.429688-12.066406-43.851562-18.445313-67.726562-18.445313-73.539063 0-133.363282 59.796876-133.363282 133.300782 0 73.5 59.824219 133.296875 133.363282 133.296875 73.535156 0 133.359374-59.796875 133.359374-133.300781 0-18.949219-3.890624-37.25-11.570312-54.394532-2.257812-5.039062 0-10.957031 5.039062-13.214844 5.042969-2.257812 10.957032 0 13.214844 5.042969 8.835938 19.730469 13.316406 40.78125 13.316406 62.570313 0 84.527344-68.796874 153.296875-153.359374 153.296875zm0 0"/><path d="m308.523438 117.621094c-.660157 0-1.308594-.0625-1.960938-.191406-.640625-.128907-1.269531-.328126-1.871094-.578126-.597656-.25-1.179687-.550781-1.726562-.910156-.539063-.371094-1.0625-.792968-1.523438-1.25-.457031-.460937-.878906-.972656-1.238281-1.519531-.359375-.542969-.671875-1.121094-.921875-1.722656-.25-.609375-.4375-1.238281-.566406-1.871094-.128906-.648437-.191406-1.308594-.191406-1.957031 0-.652344.0625-1.3125.191406-1.949219.128906-.640625.316406-1.273437.566406-1.871094.25-.609375.5625-1.191406.921875-1.730469.359375-.550781.78125-1.058593 1.238281-1.519531.460938-.460937.980469-.878906 1.523438-1.242187.550781-.359375 1.128906-.667969 1.726562-.917969.601563-.25 1.230469-.441406 1.871094-.570313 1.289062-.261718 2.621094-.261718 3.910156 0 .640625.128907 1.269532.320313 1.871094.570313.597656.25 1.179688.558594 1.726562.917969.542969.363281 1.050782.78125 1.523438 1.242187.460938.460938.878906.96875 1.238281 1.519531.359375.539063.671875 1.121094.921875 1.730469.25.597657.4375 1.230469.566406 1.871094.132813.636719.203126 1.296875.203126 1.949219 0 .648437-.070313 1.308594-.203126 1.957031-.128906.632813-.316406 1.261719-.566406 1.871094-.25.601562-.5625 1.179687-.921875 1.722656-.359375.546875-.777343 1.058594-1.238281 1.519531-.472656.457032-.980469.878906-1.523438 1.25-.546874.359375-1.128906.660156-1.726562.910156-.601562.25-1.230469.449219-1.871094.578126-.648437.128906-1.300781.191406-1.949218.191406zm0 0"/><path d="m306.242188 512h-211.378907c-5.519531 0-10-4.476562-10-10s4.480469-10 10-10h211.375c5.523438 0 10 4.476562 10 10 .003907 5.523438-4.476562 10-9.996093 10zm0 0"/><path d="m170.71875 233.453125h-12.886719c-5.523437 0-10-4.476563-10-10 0-5.519531 4.476563-10 10-10h12.886719c5.523438 0 10 4.480469 10 10 0 5.523437-4.476562 10-10 10zm0 0"/><path d="m243.273438 233.453125h-12.886719c-5.523438 0-10-4.476563-10-10 0-5.519531 4.476562-10 10-10h12.886719c5.523437 0 10 4.480469 10 10 0 5.523437-4.476563 10-10 10zm0 0"/><path d="m270.507812 183.0625v-33.554688c0-16.632812-13.535156-30.167968-30.171874-30.167968h-79.566407c-16.636719 0-30.167969 13.535156-30.167969 30.167968v33.554688c-10.347656 3.003906-17.933593 12.566406-17.933593 23.871094v47.894531c0 5.523437 4.476562 10 10 10h14.097656v8.480469c0 5.523437 4.476563 10 10 10 5.519531 0 10-4.476563 10-10v-8.480469h87.578125v8.480469c0 5.523437 4.476562 10 10 10 5.519531 0 10-4.476563 10-10v-8.480469h14.097656c5.519532 0 10-4.476563 10-10v-47.894531c-.003906-11.304688-7.589844-20.867188-17.933594-23.871094zm-119.910156-33.554688c0-5.605468 4.5625-10.167968 10.171875-10.167968h79.566407c5.605468 0 10.167968 4.5625 10.167968 10.167968v32.574219h-99.90625zm117.839844 95.320313h-135.769531v-37.894531c0-2.675782 2.175781-4.851563 4.847656-4.851563h126.074219c2.675781 0 4.847656 2.175781 4.847656 4.851563zm0 0"/><path d="m200.554688 438.449219c-5.523438 0-10-4.476563-10-10v-38.324219c0-5.523438 4.476562-10 10-10 5.519531 0 10 4.476562 10 10v38.324219c0 5.523437-4.480469 10-10 10zm0 0"/></svg></div>
+                  <div class="circle-sm"><span>2</span></div>
+                </div>
+                <div class="tab-title">Бесплатная выездная оценка</div>
+              </li>
+              <li>
+                <div class="circles">
+                  <div class="circle-big"><svg height="496pt" viewBox="-11 0 496 496.00008" width="496pt" xmlns="http://www.w3.org/2000/svg"><path d="m0 452.042969c0 24.265625 21.007812 43.957031 46.421875 43.957031h272.507813c22.773437 0 41.734374-15.832031 45.425781-36.589844 21.882812-3.410156 38.644531-21.554687 38.644531-43.398437v-198.011719h22.148438c1.542968.03125 3.058593-.390625 4.363281-1.207031l40.515625-26.316407c2.269531-1.46875 3.636718-3.988281 3.636718-6.691406 0-2.699218-1.367187-5.21875-3.636718-6.6875l-40.515625-26.582031c-1.277344-.910156-2.792969-1.4375-4.363281-1.515625h-22.148438v-43.640625c-.199219-2.683594-1.484375-5.167969-3.554688-6.886719l-92.226562-93.957031c-.515625-.738281-1.148438-1.386719-1.878906-1.914063l-.25-.234374c-1.507813-1.523438-3.566406-2.3789068-5.707032-2.367188h-214.984374c-22.773438 0-41.898438 15.835938-45.589844 36.589844-21.882813 3.410156-38.808594 21.554687-38.808594 43.398437zm136-250.042969v-37h281v37zm297-6.574219v-23.226562l17.847656 11.613281zm-124-166.609375 66.339844 68.183594h-55.648438c-2.777344.0625-5.46875-.980469-7.472656-2.902344-2.007812-1.921875-3.164062-4.566406-3.21875-7.34375zm-224.601562-12.816406h208.601562v70.753906c.121094 14.621094 12.070312 26.371094 26.691406 26.246094h67.308594v36h-258.601562c-4.582032.179688-8.246094 3.867188-8.398438 8.449219v1.023437l-23.808594-.472656h-.070312c-4.464844.117188-8.015625 3.78125-8 8.246094l.25 34.820312c.035156 4.394532 3.609375 7.9375 8 7.933594h23.628906v1.175781c0 4.417969 3.984375 7.824219 8.398438 7.824219h16.902343l-.109375 12c-.070312 4.574219 1.644532 8.996094 4.777344 12.328125 2.695312 2.875 6.425781 4.554687 10.363281 4.671875h97.136719c4.417969 0 8-3.582031 8-8s-3.582031-8-8-8h-96.246094c-.015625-1-.027344-.5-.027344-.621094l.113282-12.378906h225.691406v198.011719c0 15.441406-13.5 27.988281-30.089844 27.988281h-272.511718c-16.589844 0-30.398438-12.546875-30.398438-27.988281v-370.785157c0-.40625.261719-.820312.261719-1.242187.023437-.34375.023437-.6875 0-1.035156.585937-14.964844 13.921875-26.949219 30.136719-26.949219zm35.601562 177h-15.683594l-.339844-18.714844 16.023438.1875zm-104-113.011719c0-12.828125 10-23.660156 22-26.964843v362.988281c0 24.261719 20.988281 43.988281 46.398438 43.988281h263.367187c-3.699219 12-15.21875 20-28.835937 20h-272.507813c-16.589844 0-30.421875-12.515625-30.421875-27.957031zm0 0"/><path d="m96.460938 284h131.53125c4.417968 0 8-3.582031 8-8s-3.582032-8-8-8h-131.53125c-4.421876 0-8 3.582031-8 8s3.578124 8 8 8zm0 0"/><path d="m96.460938 323h228.910156c4.421875 0 8-3.582031 8-8s-3.578125-8-8-8h-228.910156c-4.421876 0-8 3.582031-8 8s3.578124 8 8 8zm0 0"/><path d="m96.460938 362h228.910156c4.421875 0 8-3.582031 8-8s-3.578125-8-8-8h-228.910156c-4.421876 0-8 3.582031-8 8s3.578124 8 8 8zm0 0"/><path d="m96.460938 401h228.910156c4.421875 0 8-3.582031 8-8s-3.578125-8-8-8h-228.910156c-4.421876 0-8 3.582031-8 8s3.578124 8 8 8zm0 0"/></svg></div>
+                  <div class="circle-sm"><span>3</span></div>
+                </div>
+                <div class="tab-title">Формирование предложения</div>
+              </li>
+            </ul>
+            <div class="tabs__content active">
+              <div class="tab-description">Просматриваются объявления по параметрам авто на auto.ru, avito.ru, drom.ru. Рассчитывается средняя цена автомобиля на рынке.</div>
+            </div>
+            <div class="tabs__content">
+              <div class="tab-description">Наш специалист бесплатно проведет выездную оценку для подтверждения цены выкупа. На основании осмотра составляется акт.</div>
+            </div>
+            <div class="tabs__content">
+              <div class="tab-description">Актуальное предложение действительно в течение 10 дней или 500 км с момента осмотра ТС.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="stages-section">
+      <div class="container">
+        <div class="row">
+          <div class="heading-block">
+            <div class="heading-block__title">Этапы выкупа авто</div>
+            <div class="heading-block__description">Продайте автомобиль легко</div>
+          </div>
+          <div class="stages">
+            <div class="stage-item">
+              <div class="stage-item_body">
+                <div class="stage-item-title"><span class="number">1</span><span class="title">Бесплатная оценка стоимости</span></div>
+                <div class="stage-item-text"><span class="text-subtitle">Для Вашего удобства у нас работает<br>оценка по WhatsApp, Viber, Telegram.</span>
+                  <ul>
+                    <li>В сообщении укажите марку, модель, год выпуска, пробег, фото (желательно)</li>
+                    <li>В течение 1 минуты оценщик назовет предварительную стоимость выкупа авто.</li>
+                  </ul>
+                  <ul class="messengers">
+                    <li><a href="whatsapp://send?phone=79255051005"><img src="images/whatsapp.svg" alt=""><span class="for-mobile whatsapp">Написать</span></a></li>
+                    <li><a href="viber://add?number=79255051005"><img src="images/viber.svg" alt=""><span class="for-mobile viber">Написать</span></a></li>
+                    <li><a href="tg://resolve?domain=ritamargarita"><img src="images/telegram.svg" alt=""><span class="for-mobile telegram">Написать</span></a></li>
+                  </ul><a class="big-phone" href="tel:+79255051005">+7 (925) 505-1005</a>
+                </div>
+              </div>
+              <div class="stage-item_image"><img src="images/ocenka.png" alt=""></div>
+            </div>
+            <div class="stage-item">
+              <div class="stage-item_image"><img src="images/contract.png" alt=""></div>
+              <div class="stage-item_body">
+                <div class="stage-item-title"><span class="number">2</span><span class="title">Подписание договора</span></div>
+                <div class="stage-item-text">
+                  <p>Необходимые документы для подписания договора:</p>
+                  <ul>
+                    <li>ПТС (паспорт транспортного средства)</li>
+                    <li>СТС (Свидетельство о регистрации ТС)</li>
+                    <li>Паспорт</li>
+                  </ul>
+                  <p>Договор можем подписать в любом ближайшем офисе нашей компании</p>
+                </div>
+              </div>
+            </div>
+            <div class="stage-item last">
+              <div class="stage-item_body">
+                <div class="stage-item-title"><span class="number">3</span><span class="title">Выплата полной суммы</span></div>
+                <div class="stage-item-text"><span class="text-subtitle">Денежные средства за автомобиль выплачиваются в полном размере в день обращения</span>
+                  <p>Деньги Вы можете получить:</p>
+                  <ul>
+                    <li>на карту</li>
+                    <li>в кассе банка</li>
+                    <li>наличными</li>
+                  </ul>
+                  <p>Мы гарантируем полную юридическую чистоту сделки</p>
+                </div>
+              </div>
+              <div class="stage-item_image"><img src="images/hand-phone.png" alt=""></div>
+            </div>
+            <div class="button-block"><a class="btn popup" href="#callback">Узнать цену выкупа</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="marks-section">
+      <div class="container">
+        <div class="row">
+          <div class="heading-block">
+            <div class="heading-block__title">Выкупаем любые марки авто</div>
+            <div class="heading-block__description">Выберите марку</div>
+          </div>
+          <div class="marks-block">
+            <div class="marks-item" data-val="1"><img src="images/marks/audi.png" alt="">
+              <div class="mark-name">Audi</div>
+            </div>
+            <div class="marks-item" data-val="2"><img src="images/marks/bmw.png" alt="">
+              <div class="mark-name">BMW</div>
+            </div>
+            <div class="marks-item" data-val="3"><img src="images/marks/citroen.png" alt="">
+              <div class="mark-name">Citroen</div>
+            </div>
+            <div class="marks-item" data-val="4"><img src="images/marks/toyota.png" alt="">
+              <div class="mark-name">Toyota</div>
+            </div>
+            <div class="marks-item" data-val="5"><img src="images/marks/chevrolet.png" alt="">
+              <div class="mark-name">Chevrolet</div>
+            </div>
+            <div class="marks-item" data-val="6"><img src="images/marks/fiat.png" alt="">
+              <div class="mark-name">Fiat</div>
+            </div>
+            <div class="marks-item" data-val="7"><img src="images/marks/mercedes.png" alt="">
+              <div class="mark-name">Mersedes</div>
+            </div>
+            <div class="marks-item" data-val="8"><img src="images/marks/mitsubishi.png" alt="">
+              <div class="mark-name">Mitsubishi</div>
+            </div>
+            <div class="marks-item" data-val="9"><img src="images/marks/ford.png" alt="">
+              <div class="mark-name">Ford</div>
+            </div>
+            <div class="marks-item" data-val="10"><img src="images/marks/GAS.png" alt="">
+              <div class="mark-name">GAS</div>
+            </div>
+            <div class="marks-item not-active" data-val="11"><img src="images/marks/honda.png" alt="">
+              <div class="mark-name">Honda</div>
+            </div>
+            <div class="marks-item not-active" data-val="12"><img src="images/marks/hyundai.png" alt="">
+              <div class="mark-name">Hyundai</div>
+            </div>
+            <div class="marks-item not-active" data-val="13"><img src="images/marks/infiniti.png" alt="">
+              <div class="mark-name">Infiniti</div>
+            </div>
+            <div class="marks-item not-active" data-val="14"><img src="images/marks/jeep.png" alt="">
+              <div class="mark-name">Jeep</div>
+            </div>
+            <div class="marks-item not-active" data-val="15"><img src="images/marks/kia.png" alt="">
+              <div class="mark-name">Kia</div>
+            </div>
+            <div class="marks-item not-active" data-val="16"><img src="images/marks/lada.png" alt="">
+              <div class="mark-name">Lada</div>
+            </div>
+            <div class="marks-item not-active" data-val="17"><img src="images/marks/land-rover.png" alt="">
+              <div class="mark-name">Land-rover</div>
+            </div>
+            <div class="marks-item not-active" data-val="18"><img src="images/marks/lexus.png" alt="">
+              <div class="mark-name">Lexus</div>
+            </div>
+            <div class="marks-item not-active" data-val="19"><img src="images/marks/mazda.png" alt="">
+              <div class="mark-name">Mazda</div>
+            </div>
+            <div class="marks-item not-active" data-val="20"><img src="images/marks/nissan.png" alt="">
+              <div class="mark-name">Nissan</div>
+            </div>
+            <div class="marks-item not-active" data-val="21"><img src="images/marks/opel.png" alt="">
+              <div class="mark-name">Opel</div>
+            </div>
+            <div class="marks-item not-active" data-val="22"><img src="images/marks/peugeot.png" alt="">
+              <div class="mark-name">Peugeot</div>
+            </div>
+            <div class="marks-item not-active" data-val="23"><img src="images/marks/porsche.png" alt="">
+              <div class="mark-name">Porsche</div>
+            </div>
+            <div class="marks-item not-active" data-val="24"><img src="images/marks/renault.png" alt="">
+              <div class="mark-name">Renault</div>
+            </div>
+            <div class="marks-item not-active" data-val="25"><img src="images/marks/seat.png" alt="">
+              <div class="mark-name">Seat</div>
+            </div>
+            <div class="marks-item not-active" data-val="26"><img src="images/marks/skoda.png" alt="">
+              <div class="mark-name">Skoda</div>
+            </div>
+            <div class="marks-item not-active" data-val="27"><img src="images/marks/ssangyong.png" alt="">
+              <div class="mark-name">Ssangyong</div>
+            </div>
+            <div class="marks-item not-active" data-val="28"><img src="images/marks/subaru.png" alt="">
+              <div class="mark-name">Subaru</div>
+            </div>
+            <div class="marks-item not-active" data-val="29"><img src="images/marks/volvo.png" alt="">
+              <div class="mark-name">Volvo</div>
+            </div>
+            <div class="marks-item last not-active">Другая</div>
+          </div>
+          <div class="button-block"><a class="btn-more btn-show" href="#">Показать все</a><a class="btn-more btn-hide hide" href="#">Скрыть</a></div>
+          <div class="allmarks-block">
+            <div class="marks-item" data-val="11"><img src="images/marks/honda.png" alt="">
+              <div class="mark-name">Honda</div>
+            </div>
+            <div class="marks-item" data-val="12"><img src="images/marks/hyundai.png" alt="">
+              <div class="mark-name">Hyundai</div>
+            </div>
+            <div class="marks-item" data-val="13"><img src="images/marks/infiniti.png" alt="">
+              <div class="mark-name">Infiniti</div>
+            </div>
+            <div class="marks-item" data-val="14"><img src="images/marks/jeep.png" alt="">
+              <div class="mark-name">Jeep</div>
+            </div>
+            <div class="marks-item" data-val="15"><img src="images/marks/kia.png" alt="">
+              <div class="mark-name">Kia</div>
+            </div>
+            <div class="marks-item" data-val="16"><img src="images/marks/lada.png" alt="">
+              <div class="mark-name">Lada</div>
+            </div>
+            <div class="marks-item" data-val="17"><img src="images/marks/land-rover.png" alt="">
+              <div class="mark-name">Land-rover</div>
+            </div>
+            <div class="marks-item" data-val="18"><img src="images/marks/lexus.png" alt="">
+              <div class="mark-name">Lexus</div>
+            </div>
+            <div class="marks-item" data-val="19"><img src="images/marks/mazda.png" alt="">
+              <div class="mark-name">Mazda</div>
+            </div>
+            <div class="marks-item" data-val="20"><img src="images/marks/nissan.png" alt="">
+              <div class="mark-name">Nissan</div>
+            </div>
+            <div class="marks-item" data-val="21"><img src="images/marks/opel.png" alt="">
+              <div class="mark-name">Opel</div>
+            </div>
+            <div class="marks-item" data-val="22"><img src="images/marks/peugeot.png" alt="">
+              <div class="mark-name">Peugeot</div>
+            </div>
+            <div class="marks-item" data-val="23"><img src="images/marks/porsche.png" alt="">
+              <div class="mark-name">Porsche</div>
+            </div>
+            <div class="marks-item" data-val="24"><img src="images/marks/renault.png" alt="">
+              <div class="mark-name">Renault</div>
+            </div>
+            <div class="marks-item" data-val="25"><img src="images/marks/seat.png" alt="">
+              <div class="mark-name">Seat</div>
+            </div>
+            <div class="marks-item" data-val="26"><img src="images/marks/skoda.png" alt="">
+              <div class="mark-name">Skoda</div>
+            </div>
+            <div class="marks-item" data-val="27"><img src="images/marks/ssangyong.png" alt="">
+              <div class="mark-name">Ssangyong</div>
+            </div>
+            <div class="marks-item" data-val="28"><img src="images/marks/subaru.png" alt="">
+              <div class="mark-name">Subaru</div>
+            </div>
+            <div class="marks-item" data-val="29"><img src="images/marks/volvo.png" alt="">
+              <div class="mark-name">Volvo</div>
+            </div>
+            <div class="marks-item last" data-val="30">Другая</div>
+            <!--div(data-val="15").marks-itemimg(src="images/marks/chery.png", alt="")
+            -->
+            <!--div(data-val="17").marks-itemimg(src="images/marks/dacia.png", alt="")
+            -->
+            <!--div(data-val="18").marks-itemimg(src="images/marks/daewoo.png", alt="")
+            -->
+            <!--div(data-val="19").marks-itemimg(src="images/marks/faw.png", alt="")
+            -->
+            <!--div(data-val="20").marks-itemimg(src="images/marks/ferrari.png", alt="")
+            -->
+            <!--div(data-val="22").marks-itemimg(src="images/marks/ford.png", alt="")
+            -->
+            <!--div(data-val="23").marks-itemimg(src="images/marks/foton.png", alt="")
+            -->
+            <!--div(data-val="25").marks-itemimg(src="images/marks/geely.png", alt="")
+            -->
+            <!--div(data-val="26").marks-itemimg(src="images/marks/great-wall.png", alt="")
+            -->
+            <!--div(data-val="27").marks-itemimg(src="images/marks/haval.png", alt="")
+            -->
+            <!--div(data-val="28").marks-itemimg(src="images/marks/honda.png", alt="")
+            -->
+            <!--div(data-val="29").marks-itemimg(src="images/marks/hummer.png", alt="")
+            -->
+            <!--div(data-val="30").marks-itemimg(src="images/marks/hyundai.png", alt="")
+            -->
+            <!--div(data-val="31").marks-itemimg(src="images/marks/infiniti.png", alt="")
+            -->
+            <!--div(data-val="32").marks-itemimg(src="images/marks/isuzu.png", alt="")
+            -->
+            <!--div(data-val="33").marks-itemimg(src="images/marks/jaguar.png", alt="")
+            -->
+            <!--div(data-val="34").marks-itemimg(src="images/marks/jeep.png", alt="")
+            -->
+            <!--div(data-val="37").marks-itemimg(src="images/marks/lamborghini.png", alt="")
+            -->
+            <!--div(data-val="40").marks-itemimg(src="images/marks/lifan.png", alt="")
+            -->
+            <!--div(data-val="41").marks-itemimg(src="images/marks/lincoln.png", height="50", width="auto", alt="")
+            -->
+            <!--div(data-val="42").marks-itemimg(src="images/marks/lotus.png", alt="")
+            -->
+            <!--div(data-val="43").marks-itemimg(src="images/marks/maserati.png", alt="")
+            -->
+            <!--div(data-val="44").marks-itemimg(src="images/marks/maybach.png", alt="")
+            -->
+            <!--div(data-val="46").marks-itemimg(src="images/marks/mclaren.png", alt="")
+            -->
+            <!--div(data-val="47").marks-itemimg(src="images/marks/mini.png", alt="")
+            -->
+            <!--div(data-val="53").marks-itemimg(src="images/marks/saab.png", alt="")
+            -->
+            <!--div(data-val="56").marks-itemimg(src="images/marks/smart.png", alt="")
+            -->
+            <!--div(data-val="58").marks-itemimg(src="images/marks/subaru.png", alt="")
+            -->
+            <!--div(data-val="59").marks-itemimg(src="images/marks/volvo.png", alt="")
+            -->
+            <!--div.allmarks-item Другая-->
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="form-section">
+      <div class="container">
+        <div class="row">
+          <div class="heading-block">
+            <div class="heading-block__title">Заявка на расчет цены выкупа</div>
+            <div class="heading-block__description">Назовем цену выкупа за 5 минут</div>
+          </div>
+          <div class="form-block">
+            <div class="success-mes hidden" id="success2">
+              <div class="message">
+                <div class="title">Заявка принята!</div>
+                <div class="description">Эксперт по оценке свяжется с вами в ближайшее время.</div>
+              </div>
+            </div>
+            <form class="form">
+              <div class="form-block_left">
+                <select required id="marks2">
+                  <option></option>
+                  <option value="1">Audi</option>
+                  <option value="2">BMW</option>
+                  <option value="3">Citroen</option>
+                  <option value="4">Toyota</option>
+                  <option value="5">Chevrolet</option>
+                  <option value="6">Fiat</option>
+                  <option value="7">Mersedes</option>
+                  <option value="8">Mitsubishi</option>
+                  <option value="9">Ford</option>
+                  <option value="10">GAS</option>
+                  <option value="11">Honda</option>
+                  <option value="12">Hyundai</option>
+                  <option value="13">Infiniti</option>
+                  <option value="14">Jeep</option>
+                  <option value="15">Kia</option>
+                  <option value="16">Lada</option>
+                  <option value="17">Land-rover</option>
+                  <option value="18">Lexus</option>
+                  <option value="19">Mazda</option>
+                  <option value="20">Nissan</option>
+                  <option value="21">Opel</option>
+                  <option value="22">Peugeot</option>
+                  <option value="23">Porsche</option>
+                  <option value="24">Renault</option>
+                  <option value="25">Seat</option>
+                  <option value="26">Skoda</option>
+                  <option value="27">Ssangyong</option>
+                  <option value="28">Subaru</option>
+                  <option value="29">Volvo</option>
+                  <option value="30">Марка 30</option>
+                </select>
+                <select required disabled="disabled" id="models2">
+                  <option></option>
+                  <option value="model1">Модель1</option>
+                  <option value="model2">Модель2</option>
+                  <option value="model3">Модель3</option>
+                  <option value="model4">Модель4</option>
+                  <option value="model5">Модель5</option>
+                  <option value="model6">Модель6</option>
+                  <option value="model7">Модель7</option>
+                  <option value="model8">Модель8</option>
+                  <option value="model9">Модель9</option>
+                  <option value="model10">Модель10</option>
+                  <option value="model11">Модель11</option>
+                  <option value="model12">Модель12</option>
+                  <option value="model13">Модель13</option>
+                  <option value="model14">Модель14</option>
+                  <option value="model15">Модель15</option>
+                  <option value="model16">Модель16</option>
+                  <option value="model17">Модель17</option>
+                </select>
+                <select required disabled="disabled" id="year2">
+                  <option></option>
+                  <option value="year1">2001</option>
+                  <option value="year2">2002</option>
+                  <option value="year3">2003</option>
+                  <option value="year4">2004</option>
+                  <option value="year5">2005</option>
+                  <option value="year6">2006</option>
+                  <option value="year7">2007</option>
+                  <option value="year8">2008</option>
+                  <option value="year9">2009</option>
+                  <option value="year10">2010</option>
+                  <option value="year11">2011</option>
+                  <option value="year12">2012</option>
+                  <option value="year13">2013</option>
+                </select>
+                <input type="tel" name="phone" placeholder="Ваш телефон*" required id="phone2">
+              </div>
+              <div class="form-block_right">
+                <div class="condition"><span>Состояние авто:</span>
+                  <div class="rating">
+                    <div class="raiting">
+                      <input class="rating" type="radio" value="1" style="display:none">
+                      <input class="rating" type="radio" value="2" style="display:none">
+                      <input class="rating" type="radio" value="3" style="display:none">
+                      <input class="rating" type="radio" value="4" style="display:none">
+                      <input class="rating" type="radio" value="5" style="display:none">
+                    </div>
+                  </div>
+                </div>
+                <textarea rows="5" placeholder="Если есть что добавить"></textarea>
+              </div>
+              <div class="form-block_full">
+                <div class="wrap-block">
+                  <div class="form-block_attach-field">
+                    <label class="pick-file">
+                      <input type="file" name="file" multiple>
+                      <div class="label-block"><span class="label"><span class="image"></span><span class="name">Добавить фото</span></span>
+                        <div class="result" style="display:none;"></div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="check-block">
+                    <label class="c-check">
+                      <input type="checkbox" name="polit" value="chchhc" checked="checked" required><span class="c-check__label"><span class="check"></span><span class="check-agreement">Согласие на обработку Персональных данных</span></span>
+                    </label>
+                  </div>
+                </div>
+                <div class="submit-block">
+                  <div class="button-block">
+                    <button class="btn" type="button">Узнать цену выкупа</button>
+                    <button class="hidden-submit" style="display:none" type="submit"></button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="reviews">
+      <div class="container">
+        <div class="row">
+          <div class="heading-block">
+            <div class="heading-block__title">Клиенты о нас</div>
+          </div>
+          <div class="total-review">
+            <div class="count-review">
+              <div class="count-review__sum">
+                <div class="big-border"><span class="number">4,8</span></div>
+                <div class="stars-number">
+                  <div class="stars-score">
+                    <div style="width: 96%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="count-review__number">Всего:<span>972 отзыва</span></div>
+            </div>
+            <div class="options-review">
+              <div class="options-review-item">
+                <div class="title">Время ответа
+                  <div class="value">
+                    <div class="stars-score">
+                      <div style="width:80%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="options-review-item">
+                <div class="title">Вежливость<span class="value">
+                    <div class="stars-score">
+                      <div style="width:90%"></div>
+                    </div></span></div>
+              </div>
+              <div class="options-review-item">
+                <div class="title">Решение вопроса<span class="value">
+                    <div class="stars-score">
+                      <div style="width:95%"></div>
+                    </div></span></div>
+              </div>
+              <div class="options-review-item"><a class="leave-review popup" href="#leave_review">Оставить отзыв</a></div>
+            </div>
+          </div>
+          <div class="clients-reviews-block">
+            <div class="clients-reviews-item">
+              <div class="clients-reviews-item__photo"><img src="images/photo-client.jpg" alt=""></div>
+              <div class="clients-reviews-item__body">
+                <div class="client-name">Виталий</div>
+                <div class="client-text">Спасибо Алексею за опертивное решение моего вопроса. Всегда на связи, вежлив. Автомобиль выкуплен, деньги</div>
+                <div class="client-review-options">
+                  <div class="options-review-item">
+                    <div class="title">Время ответа<span class="value">
+                        <div class="stars-score">
+                          <div style="width:80%"></div>
+                        </div></span></div>
+                  </div>
+                  <div class="options-review-item">
+                    <div class="title">Вежливость<span class="value">
+                        <div class="stars-score">
+                          <div style="width:60%"></div>
+                        </div></span></div>
+                  </div>
+                  <div class="options-review-item">
+                    <div class="title">Решение вопроса<span class="value">
+                        <div class="stars-score">
+                          <div style="width:30%"></div>
+                        </div></span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="clients-reviews-item__date"> 
+                <div class="day">04.08 </div>
+                <div class="time">07:26</div>
+              </div>
+            </div>
+            <div class="clients-reviews-item">
+              <div class="clients-reviews-item__photo"><img src="images/photo-client2.jpg" alt=""></div>
+              <div class="clients-reviews-item__body">
+                <div class="client-name">Евгений</div>
+                <div class="client-text">Спасибо Алексею за опертивное решение моего вопроса. Всегда на связи, вежлив. Автомобиль выкуплен, деньги </div>
+                <div class="client-review-options">
+                  <div class="options-review-item">
+                    <div class="title">Время ответа<span class="value">
+                        <div class="stars-score">
+                          <div style="width:80%"></div>
+                        </div></span></div>
+                  </div>
+                  <div class="options-review-item">
+                    <div class="title">Вежливость<span class="value">
+                        <div class="stars-score">
+                          <div style="width:100%"></div>
+                        </div></span></div>
+                  </div>
+                  <div class="options-review-item">
+                    <div class="title">Решение вопроса<span class="value">
+                        <div class="stars-score">
+                          <div style="width:80%"></div>
+                        </div></span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="clients-reviews-item__date"> 
+                <div class="day">04.08 </div>
+                <div class="time">07:26</div>
+              </div>
+            </div>
+            <div class="clients-reviews-item not-active">
+              <div class="clients-reviews-item__photo"><img src="images/photo-client.jpg" alt=""></div>
+              <div class="clients-reviews-item__body">
+                <div class="client-name">Жернов Вячеслав Владимирович</div>
+                <div class="client-text">Серьезная и ответственная компания. Получил рекомендацию от моего коллеги по работе, который тоже продал им свой разбитый Lexus. Вообщем мы подписали договор, они вызвали эвакуатор и перевели мне деньги на мой счет в банке. Ни одной сложности, заминки или проблемы.</div>
+                <div class="client-review-options">
+                  <div class="options-review-item">
+                    <div class="title">Время ответа<span class="value">
+                        <div class="stars-score">
+                          <div style="width:100%"></div>
+                        </div></span></div>
+                  </div>
+                  <div class="options-review-item">
+                    <div class="title">Вежливость<span class="value">
+                        <div class="stars-score">
+                          <div style="width:80%"></div>
+                        </div></span></div>
+                  </div>
+                  <div class="options-review-item">
+                    <div class="title">Решение вопроса<span class="value">
+                        <div class="stars-score">
+                          <div style="width:80%"></div>
+                        </div></span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="clients-reviews-item__date"> 
+                <div class="day">04.08 </div>
+                <div class="time">07:26</div>
+              </div>
+            </div>
+            <div class="clients-reviews-item not-active">
+              <div class="clients-reviews-item__photo"><img src="images/photo-client2.jpg" alt=""></div>
+              <div class="clients-reviews-item__body">
+                <div class="client-name">Оксана Матюш</div>
+                <div class="client-text">При продаже машины доверие для меня было на первом месте: хотелось полностью доверять покупателю, потому что мне не с кем советоваться. Так получилось, что продавала свой автомобиль сама, очень переживала, чтобы не обманули, именно поэтому искала серьезную компанию. В «Автоэксперте» меня привлекло отношение очень вежливое и доброжелательное. Все документы были оформлены правильно, деньги получила сразу же.</div>
+                <div class="client-review-options">
+                  <div class="options-review-item">
+                    <div class="title">Время ответа<span class="value">
+                        <div class="stars-score">
+                          <div style="width:80%"></div>
+                        </div></span></div>
+                  </div>
+                  <div class="options-review-item">
+                    <div class="title">Вежливость<span class="value">
+                        <div class="stars-score">
+                          <div style="width:80%"></div>
+                        </div></span></div>
+                  </div>
+                  <div class="options-review-item">
+                    <div class="title">Решение вопроса<span class="value">
+                        <div class="stars-score">
+                          <div style="width:100%"></div>
+                        </div></span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="clients-reviews-item__date"> 
+                <div class="day">04.08 </div>
+                <div class="time">07:26</div>
+              </div>
+            </div>
+            <div class="clients-reviews-item not-active">
+              <div class="clients-reviews-item__photo"><img src="images/photo-client2.jpg" alt=""></div>
+              <div class="clients-reviews-item__body">
+                <div class="client-name">Оксана Матюш</div>
+                <div class="client-text">При продаже машины доверие для меня было на первом месте: хотелось полностью доверять покупателю, потому что мне не с кем советоваться. Так получилось, что продавала свой автомобиль сама, очень переживала, чтобы не обманули, именно поэтому искала серьезную компанию. В «Автоэксперте» меня привлекло отношение очень вежливое и доброжелательное. Все документы были оформлены правильно, деньги получила сразу же.</div>
+                <div class="client-review-options">
+                  <div class="options-review-item">
+                    <div class="title">Время ответа<span class="value">
+                        <div class="stars-score">
+                          <div style="width:80%"></div>
+                        </div></span></div>
+                  </div>
+                  <div class="options-review-item">
+                    <div class="title">Вежливость<span class="value">
+                        <div class="stars-score">
+                          <div style="width:80%"></div>
+                        </div></span></div>
+                  </div>
+                  <div class="options-review-item">
+                    <div class="title">Решение вопроса<span class="value">
+                        <div class="stars-score">
+                          <div style="width:100%"></div>
+                        </div></span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="clients-reviews-item__date"> 
+                <div class="day">04.08 </div>
+                <div class="time">07:26</div>
+              </div>
+            </div>
+            <div class="clients-reviews-item not-active">
+              <div class="clients-reviews-item__photo"><img src="images/photo-client2.jpg" alt=""></div>
+              <div class="clients-reviews-item__body">
+                <div class="client-name">Оксана Матюш</div>
+                <div class="client-text">При продаже машины доверие для меня было на первом месте: хотелось полностью доверять покупателю, потому что мне не с кем советоваться. Так получилось, что продавала свой автомобиль сама, очень переживала, чтобы не обманули, именно поэтому искала серьезную компанию. В «Автоэксперте» меня привлекло отношение очень вежливое и доброжелательное. Все документы были оформлены правильно, деньги получила сразу же.</div>
+                <div class="client-review-options">
+                  <div class="options-review-item">
+                    <div class="title">Время ответа<span class="value">
+                        <div class="stars-score">
+                          <div style="width:80%"></div>
+                        </div></span></div>
+                  </div>
+                  <div class="options-review-item">
+                    <div class="title">Вежливость<span class="value">
+                        <div class="stars-score">
+                          <div style="width:80%"></div>
+                        </div></span></div>
+                  </div>
+                  <div class="options-review-item">
+                    <div class="title">Решение вопроса<span class="value">
+                        <div class="stars-score">
+                          <div style="width:100%"></div>
+                        </div></span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="clients-reviews-item__date"> 
+                <div class="day">04.08 </div>
+                <div class="time">07:26</div>
+              </div>
+            </div>
+            <div class="clients-reviews-item not-active">
+              <div class="clients-reviews-item__photo"><img src="images/photo-client2.jpg" alt=""></div>
+              <div class="clients-reviews-item__body">
+                <div class="client-name">Оксана Матюш</div>
+                <div class="client-text">При продаже машины доверие для меня было на первом месте: хотелось полностью доверять покупателю, потому что мне не с кем советоваться. Так получилось, что продавала свой автомобиль сама, очень переживала, чтобы не обманули, именно поэтому искала серьезную компанию. В «Автоэксперте» меня привлекло отношение очень вежливое и доброжелательное. Все документы были оформлены правильно, деньги получила сразу же.</div>
+                <div class="client-review-options">
+                  <div class="options-review-item">
+                    <div class="title">Время ответа<span class="value">
+                        <div class="stars-score">
+                          <div style="width:80%"></div>
+                        </div></span></div>
+                  </div>
+                  <div class="options-review-item">
+                    <div class="title">Вежливость<span class="value">
+                        <div class="stars-score">
+                          <div style="width:80%"></div>
+                        </div></span></div>
+                  </div>
+                  <div class="options-review-item">
+                    <div class="title">Решение вопроса<span class="value">
+                        <div class="stars-score">
+                          <div style="width:100%"></div>
+                        </div></span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="clients-reviews-item__date"> 
+                <div class="day">04.08 </div>
+                <div class="time">07:26</div>
+              </div>
+            </div>
+            <div class="clients-reviews-item not-active">
+              <div class="clients-reviews-item__photo"><img src="images/photo-client2.jpg" alt=""></div>
+              <div class="clients-reviews-item__body">
+                <div class="client-name">Оксана Матюш</div>
+                <div class="client-text">При продаже машины доверие для меня было на первом месте: хотелось полностью доверять покупателю, потому что мне не с кем советоваться. Так получилось, что продавала свой автомобиль сама, очень переживала, чтобы не обманули, именно поэтому искала серьезную компанию. В «Автоэксперте» меня привлекло отношение очень вежливое и доброжелательное. Все документы были оформлены правильно, деньги получила сразу же.</div>
+                <div class="client-review-options">
+                  <div class="options-review-item">
+                    <div class="title">Время ответа<span class="value">
+                        <div class="stars-score">
+                          <div style="width:80%"></div>
+                        </div></span></div>
+                  </div>
+                  <div class="options-review-item">
+                    <div class="title">Вежливость<span class="value">
+                        <div class="stars-score">
+                          <div style="width:80%"></div>
+                        </div></span></div>
+                  </div>
+                  <div class="options-review-item">
+                    <div class="title">Решение вопроса<span class="value">
+                        <div class="stars-score">
+                          <div style="width:100%"></div>
+                        </div></span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="clients-reviews-item__date"> 
+                <div class="day">04.08 </div>
+                <div class="time">07:26</div>
+              </div>
+            </div>
+            <div class="clients-reviews-item not-active">
+              <div class="clients-reviews-item__photo"><img src="images/photo-client2.jpg" alt=""></div>
+              <div class="clients-reviews-item__body">
+                <div class="client-name">Оксана Матюш</div>
+                <div class="client-text">При продаже машины доверие для меня было на первом месте: хотелось полностью доверять покупателю, потому что мне не с кем советоваться. Так получилось, что продавала свой автомобиль сама, очень переживала, чтобы не обманули, именно поэтому искала серьезную компанию. В «Автоэксперте» меня привлекло отношение очень вежливое и доброжелательное. Все документы были оформлены правильно, деньги получила сразу же.</div>
+                <div class="client-review-options">
+                  <div class="options-review-item">
+                    <div class="title">Время ответа<span class="value">
+                        <div class="stars-score">
+                          <div style="width:80%"></div>
+                        </div></span></div>
+                  </div>
+                  <div class="options-review-item">
+                    <div class="title">Вежливость<span class="value">
+                        <div class="stars-score">
+                          <div style="width:80%"></div>
+                        </div></span></div>
+                  </div>
+                  <div class="options-review-item">
+                    <div class="title">Решение вопроса<span class="value">
+                        <div class="stars-score">
+                          <div style="width:100%"></div>
+                        </div></span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="clients-reviews-item__date"> 
+                <div class="day">04.08 </div>
+                <div class="time">07:26</div>
+              </div>
+            </div>
+            <div class="clients-reviews-item not-active">
+              <div class="clients-reviews-item__photo"><img src="images/photo-client2.jpg" alt=""></div>
+              <div class="clients-reviews-item__body">
+                <div class="client-name">Оксана Матюш</div>
+                <div class="client-text">При продаже машины доверие для меня было на первом месте: хотелось полностью доверять покупателю, потому что мне не с кем советоваться. Так получилось, что продавала свой автомобиль сама, очень переживала, чтобы не обманули, именно поэтому искала серьезную компанию. В «Автоэксперте» меня привлекло отношение очень вежливое и доброжелательное. Все документы были оформлены правильно, деньги получила сразу же.</div>
+                <div class="client-review-options">
+                  <div class="options-review-item">
+                    <div class="title">Время ответа<span class="value">
+                        <div class="stars-score">
+                          <div style="width:80%"></div>
+                        </div></span></div>
+                  </div>
+                  <div class="options-review-item">
+                    <div class="title">Вежливость<span class="value">
+                        <div class="stars-score">
+                          <div style="width:80%"></div>
+                        </div></span></div>
+                  </div>
+                  <div class="options-review-item">
+                    <div class="title">Решение вопроса<span class="value">
+                        <div class="stars-score">
+                          <div style="width:100%"></div>
+                        </div></span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="clients-reviews-item__date"> 
+                <div class="day">04.08 </div>
+                <div class="time">07:26</div>
+              </div>
+            </div>
+          </div>
+          <div class="button-block"><a class="btn-more btn-show" href="#">Показать еще</a><a class="btn-more btn-hide hide" href="#">Скрыть</a></div>
+          <div class="allclients-reviews-block"></div>
+        </div>
+      </div>
+    </section>
+    <section id="examples">
+      <div class="container">
+        <div class="row">
+          <div class="heading-block">
+            <div class="heading-block__title">Примеры выкупленных авто</div>
+            <div class="heading-block__description">Всего было выкуплено более 10 000 автомобилей</div>
+          </div>
+          <div class="examples-block">
+            <div class="examples-item">
+              <div class="layer">
+                <div class="examples-item__image" style="background-image:url('images/example-car.jpg')"></div>
+                <div class="examples-item__body">
+                  <div class="examples-item__body__shown">
+                    <div class="mark">BMW 325 Xi</div>
+                    <div class="price">1 300 000 руб</div>
+                  </div>
+                  <div class="examples-item__body__hidden">
+                    <div class="characteristic">Год выпуска<span class="value">2018</span></div>
+                    <div class="characteristic">Пробег<span class="value">67 000 км</span></div>
+                    <div class="characteristic">Мощность<span class="value">218 л.с.</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="examples-item">
+              <div class="layer">
+                <div class="examples-item__image" style="background-image:url('images/example-car2.jpg')"></div>
+                <div class="examples-item__body">
+                  <div class="examples-item__body__shown">
+                    <div class="mark">BMW 325 Xi</div>
+                    <div class="price">1 300 000 руб</div>
+                  </div>
+                  <div class="examples-item__body__hidden">
+                    <div class="characteristic">Год выпуска<span class="value">2018</span></div>
+                    <div class="characteristic">Пробег<span class="value">67 000 км</span></div>
+                    <div class="characteristic">Мощность<span class="value">218 л.с.</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="examples-item">
+              <div class="layer">
+                <div class="examples-item__image" style="background-image:url('images/example-car3.jpg')"></div>
+                <div class="examples-item__body">
+                  <div class="examples-item__body__shown">
+                    <div class="mark">BMW 325 Xi</div>
+                    <div class="price">1 300 000 руб</div>
+                  </div>
+                  <div class="examples-item__body__hidden">
+                    <div class="characteristic">Год выпуска<span class="value">2018</span></div>
+                    <div class="characteristic">Пробег<span class="value">67 000 км</span></div>
+                    <div class="characteristic">Мощность<span class="value">218 л.с.</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="examples-item not-active">
+              <div class="layer">
+                <div class="examples-item__image" style="background-image:url('images/example-car.jpg')"></div>
+                <div class="examples-item__body">
+                  <div class="examples-item__body__shown">
+                    <div class="mark">BMW 325 Xi</div>
+                    <div class="price">1 300 000 руб</div>
+                  </div>
+                  <div class="examples-item__body__hidden">
+                    <div class="characteristic">Год выпуска<span class="value">2018</span></div>
+                    <div class="characteristic">Пробег<span class="value">67 000 км</span></div>
+                    <div class="characteristic">Мощность<span class="value">218 л.с.</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="examples-item not-active">
+              <div class="layer">
+                <div class="examples-item__image" style="background-image:url('images/example-car.jpg')"></div>
+                <div class="examples-item__body">
+                  <div class="examples-item__body__shown">
+                    <div class="mark">BMW 325 Xi</div>
+                    <div class="price">1 300 000 руб</div>
+                  </div>
+                  <div class="examples-item__body__hidden">
+                    <div class="characteristic">Год выпуска<span class="value">2018</span></div>
+                    <div class="characteristic">Пробег<span class="value">67 000 км</span></div>
+                    <div class="characteristic">Мощность<span class="value">218 л.с.</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="examples-item not-active">
+              <div class="layer">
+                <div class="examples-item__image" style="background-image:url('images/example-car.jpg')"></div>
+                <div class="examples-item__body">
+                  <div class="examples-item__body__shown">
+                    <div class="mark">BMW 325 Xi</div>
+                    <div class="price">1 300 000 руб</div>
+                  </div>
+                  <div class="examples-item__body__hidden">
+                    <div class="characteristic">Год выпуска<span class="value">2018</span></div>
+                    <div class="characteristic">Пробег<span class="value">67 000 км</span></div>
+                    <div class="characteristic">Мощность<span class="value">218 л.с.</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="examples-item not-active">
+              <div class="layer">
+                <div class="examples-item__image" style="background-image:url('images/example-car.jpg')"></div>
+                <div class="examples-item__body">
+                  <div class="examples-item__body__shown">
+                    <div class="mark">BMW 325 Xi</div>
+                    <div class="price">1 300 000 руб</div>
+                  </div>
+                  <div class="examples-item__body__hidden">
+                    <div class="characteristic">Год выпуска<span class="value">2018</span></div>
+                    <div class="characteristic">Пробег<span class="value">67 000 км</span></div>
+                    <div class="characteristic">Мощность<span class="value">218 л.с.</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="examples-item not-active">
+              <div class="layer">
+                <div class="examples-item__image" style="background-image:url('images/example-car.jpg')"></div>
+                <div class="examples-item__body">
+                  <div class="examples-item__body__shown">
+                    <div class="mark">BMW 325 Xi</div>
+                    <div class="price">1 300 000 руб</div>
+                  </div>
+                  <div class="examples-item__body__hidden">
+                    <div class="characteristic">Год выпуска<span class="value">2018</span></div>
+                    <div class="characteristic">Пробег<span class="value">67 000 км</span></div>
+                    <div class="characteristic">Мощность<span class="value">218 л.с.</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="examples-item not-active">
+              <div class="layer">
+                <div class="examples-item__image" style="background-image:url('images/example-car.jpg')"></div>
+                <div class="examples-item__body">
+                  <div class="examples-item__body__shown">
+                    <div class="mark">BMW 325 Xi</div>
+                    <div class="price">1 300 000 руб</div>
+                  </div>
+                  <div class="examples-item__body__hidden">
+                    <div class="characteristic">Год выпуска<span class="value">2018</span></div>
+                    <div class="characteristic">Пробег<span class="value">67 000 км</span></div>
+                    <div class="characteristic">Мощность<span class="value">218 л.с.</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="button-block"><a class="btn-more btn-show" href="#">Показать еще</a><a class="btn-more btn-hide hide" href="#">Скрыть</a></div>
+          <!--div.allexamples-block
+          div.examples-item
+          	div.layer
+          		div(style="background-image:url('images/example-car.jpg')").examples-item__image
+          		div.examples-item__body
+          			div.examples-item__body__shown
+          				div.mark BMW 325 Xi
+          				div.price 1 300 000 руб
+          			div.examples-item__body__hidden
+          				div.characteristic Год выпуска
+          					span.value 2018
+          				div.characteristic Пробег
+          					span.value 67 000 км
+          				div.characteristic Мощность
+          					span.value 218 л.с.
+          div.examples-item
+          	div.layer
+          		div(style="background-image:url('images/example-car.jpg')").examples-item__image
+          		div.examples-item__body
+          			div.examples-item__body__shown
+          				div.mark BMW 325 Xi
+          				div.price 1 300 000 руб
+          			div.examples-item__body__hidden
+          				div.characteristic Год выпуска
+          					span.value 2018
+          				div.characteristic Пробег
+          					span.value 67 000 км
+          				div.characteristic Мощность
+          					span.value 218 л.с.
+          div.examples-item
+          	div.layer
+          		div(style="background-image:url('images/example-car.jpg')").examples-item__image
+          		div.examples-item__body
+          			div.examples-item__body__shown
+          				div.mark BMW 325 Xi
+          				div.price 1 300 000 руб
+          			div.examples-item__body__hidden
+          				div.characteristic Год выпуска
+          					span.value 2018
+          				div.characteristic Пробег
+          					span.value 67 000 км
+          				div.characteristic Мощность
+          					span.value 218 л.с.
+          div.examples-item
+          	div.layer
+          		div(style="background-image:url('images/example-car.jpg')").examples-item__image
+          		div.examples-item__body
+          			div.examples-item__body__shown
+          				div.mark BMW 325 Xi
+          				div.price 1 300 000 руб
+          			div.examples-item__body__hidden
+          				div.characteristic Год выпуска
+          					span.value 2018
+          				div.characteristic Пробег
+          					span.value 67 000 км
+          				div.characteristic Мощность
+          					span.value 218 л.с.
+          div.examples-item
+          	div.layer
+          		div(style="background-image:url('images/example-car.jpg')").examples-item__image
+          		div.examples-item__body
+          			div.examples-item__body__shown
+          				div.mark BMW 325 Xi
+          				div.price 1 300 000 руб
+          			div.examples-item__body__hidden
+          				div.characteristic Год выпуска
+          					span.value 2018
+          				div.characteristic Пробег
+          					span.value 67 000 км
+          				div.characteristic Мощность
+          					span.value 218 л.с.
+          div.examples-item
+          	div.layer
+          		div(style="background-image:url('images/example-car.jpg')").examples-item__image
+          		div.examples-item__body
+          			div.examples-item__body__shown
+          				div.mark BMW 325 Xi
+          				div.price 1 300 000 руб
+          			div.examples-item__body__hidden
+          				div.characteristic Год выпуска
+          					span.value 2018
+          				div.characteristic Пробег
+          					span.value 67 000 км
+          				div.characteristic Мощность
+          					span.value 218 л.с.
+          -->
+        </div>
+      </div>
+    </section>
+    <section id="questions">
+      <div class="container">
+        <div class="row">
+          <div class="heading-block">
+            <div class="heading-block__title">Частые вопросы</div>
+          </div>
+          <div class="button-block"><a class="btn popup" href="#modal_question">Задать вопрос</a></div>
+          <div class="questions-block">
+            <div class="questions-block-item">
+              <div class="questions-block-item__title active opened">Как быстро я могу продать авто?<img class="down" src="images/down.png" alt=""><img class="up" src="images/up.png" alt=""></div>
+              <div class="questions-block-item__answer" style="display:block;">
+                <p>Срочный выкуп авто подразумевает продажу машины в рамках одного дня, поэтому в течение 2-4 часов машина должна быть продана.</p>
+              </div>
+            </div>
+            <div class="questions-block-item">
+              <div class="questions-block-item__title">Скупка авто - это безопасно?<img class="down" src="images/down.png" alt=""><img class="up" src="images/up.png" alt=""></div>
+              <div class="questions-block-item__answer">
+                <p>Вся сделка производится согласно законодательству РФ: </p>
+                <ul>
+                  <li>Оформляется ДКП </li>
+                  <li>Оплата нал/безнал на Ваше усмотрение</li>
+                </ul>
+              </div>
+            </div>
+            <div class="questions-block-item">
+              <div class="questions-block-item__title">Какие машины вы выкупаете?<img class="down" src="images/down.png" alt=""><img class="up" src="images/up.png" alt=""></div>
+              <div class="questions-block-item__answer">
+                <p>Мы профессионально занимаемся автовыкупом, поэтому скупаем любые машины независимо от класса, состояния или юридического статуса.</p>
+              </div>
+            </div>
+            <div class="questions-block-item">
+              <div class="questions-block-item__title">Могу я услышать цену по телефону?<img class="down" src="images/down.png" alt=""><img class="up" src="images/up.png" alt=""></div>
+              <div class="questions-block-item__answer">
+                <p>Оценка по WhatsApp/Viber позволяет максимально приближенно назвать стоимость выкупа авто по телефону.</p>
+              </div>
+            </div>
+            <div class="questions-block-item">
+              <div class="questions-block-item__title">За сколько я продам машину?<img class="down" src="images/down.png" alt=""><img class="up" src="images/up.png" alt=""></div>
+              <div class="questions-block-item__answer">
+                <p>Комиссия автосалона составляет 10% от текущей стоимости выкупаемого авто. В случае покупки эксклюзивного автомобиля комиссия может быть выше.</p>
+              </div>
+            </div>
+            <div class="questions-block-item not-active">
+              <div class="questions-block-item__title">Как я получу деньги?<img class="down" src="images/down.png" alt=""><img class="up" src="images/up.png" alt=""></div>
+              <div class="questions-block-item__answer">
+                <p>Денежные средства выплачиваются тремя способами:</p>
+                <ul>
+                  <li>в кассе нашего автосалона </li>
+                  <li>в кассах банков-партнеров  (Сбербанк, ВТБ, Абсолют-банк) </li>
+                  <li>перевод на карту клиента в день обращения</li>
+                </ul>
+              </div>
+            </div>
+            <div class="questions-block-item not-active">
+              <div class="questions-block-item__title">Какие оформляются документы?<img class="down" src="images/down.png" alt=""><img class="up" src="images/up.png" alt=""></div>
+              <div class="questions-block-item__answer">
+                <ul>
+                  <li>договор комиссии </li>
+                  <li>договор купли-продажи</li>
+                  <li>акт приема-передачи </li>
+                </ul>
+              </div>
+            </div>
+            <div class="questions-block-item not-active">
+              <div class="questions-block-item__title">А мне штрафы не придут?<img class="down" src="images/down.png" alt=""><img class="up" src="images/up.png" alt=""></div>
+              <div class="questions-block-item__answer">
+                <p>Штрафы не придут по двум причинам:</p>
+                <ul>
+                  <li>автомобиль пределы салона не покидает</li>
+                  <li>регистрация ТС будет приостановлена</li>
+                </ul>
+              </div>
+            </div>
+            <div class="questions-block-item not-active">
+              <div class="questions-block-item__title">Какие еще оказываете услуги?<img class="down" src="images/down.png" alt=""><img class="up" src="images/up.png" alt=""></div>
+              <div class="questions-block-item__answer">
+                <ul>
+                  <li>обмен старого автомобиля на новый</li>
+                  <li>поставка авто на комиссию</li>
+                  <li>оформление ОСАГО/КАСКО</li>
+                  <li>подбор автомобилей</li>
+                  <li>оформление ДКП</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="button-block"><a class="btn-more btn-show" href="#">Показать еще</a><a class="btn-more btn-hide hide" href="#">Скрыть</a></div>
+        </div>
+      </div>
+    </section>
+    <section id="map-section">
+      <div class="map-block">
+        <div id="ymap_ctrl_display">
+          <div>Чтобы изменить масштаб, прокручивайте карту, удерживая клавишу Ctrl.</div>
+        </div>
+        <div id="map"></div>
+        <!--iframe(src="https://www.google.com/maps/d/u/0/embed?mid=1hjNsAnU96youyuVaZ1t3Osl30d5Z6GJP&hl=ru", width="100%", height="550")//-->
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="map-info">
+            <div class="map-info-item">
+              <div class="map-info-item__row">
+                <div class="title">Телефон</div>
+                <div class="value"><a href="tel:+74955051005">+7 (495) 505-1005</a></div>
+              </div>
+              <div class="map-info-item__row">
+                <div class="title"><img src="images/messengers-map.png"></div>
+                <div class="value"><a href="tel:+74955051005">+7 (495) 505-1005</a></div>
+              </div>
+              <div class="map-info-item__row">
+                <div class="title">e-mail</div>
+                <div class="value"> <a href="mailto:info@vikupaem-auto.ru">info@vikupaem-auto.ru</a></div>
+              </div>
+            </div>
+            <div class="map-info-item">
+              <div class="map-info-item__row">
+                <div class="title">Режим работы</div>
+                <div class="value"> <span>ПН-ПТ с 09:00 до 20:00</span><span>СБ-ВС с 09:00 до 18:00</span></div>
+              </div>
+            </div>
+            <div class="map-info-item">
+              <div class="map-info-item__row">
+                <div class="title">Адрес</div>
+                <div class="address-item">
+                  <div class="sign"><img src="images/subway.png" alt=""></div>
+                  <div class="text">м. Тульская, ул. Большая Тульская, д. 2</div>
+                </div>
+                <div class="address-item">
+                  <div class="sign"><img src="images/subway.png" alt=""></div>
+                  <div class="text">м. Алтуфьево, Шенкурский проезд, д.3Б</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="footer-content">
+            <div class="logo-footer"><img src="images/logo.png" alt=""></div>
+            <div class="banks-block">
+              <ul>
+                <li><img src="images/banks/1.png" alt=""></li>
+                <li><img src="images/banks/2.png" alt=""></li>
+                <li><img src="images/banks/3.png" alt=""></li>
+                <li><img src="images/banks/4.png" alt=""></li>
+                <li><img src="images/banks/5.png" alt=""></li>
+                <li><img src="images/banks/6.png" alt=""></li>
+              </ul>
+            </div>
+            <div class="messengers-footer">
+              <ul>
+                <li><a href="#"><?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="548.358px" height="548.358px" viewBox="0 0 548.358 548.358" style="enable-background:new 0 0 548.358 548.358;"
+	 xml:space="preserve">
+<g>
+	<path d="M545.451,400.298c-0.664-1.431-1.283-2.618-1.858-3.569c-9.514-17.135-27.695-38.167-54.532-63.102l-0.567-0.571
+		l-0.284-0.28l-0.287-0.287h-0.288c-12.18-11.611-19.893-19.418-23.123-23.415c-5.91-7.614-7.234-15.321-4.004-23.13
+		c2.282-5.9,10.854-18.36,25.696-37.397c7.807-10.089,13.99-18.175,18.556-24.267c32.931-43.78,47.208-71.756,42.828-83.939
+		l-1.701-2.847c-1.143-1.714-4.093-3.282-8.846-4.712c-4.764-1.427-10.853-1.663-18.278-0.712l-82.224,0.568
+		c-1.332-0.472-3.234-0.428-5.712,0.144c-2.475,0.572-3.713,0.859-3.713,0.859l-1.431,0.715l-1.136,0.859
+		c-0.952,0.568-1.999,1.567-3.142,2.995c-1.137,1.423-2.088,3.093-2.848,4.996c-8.952,23.031-19.13,44.444-30.553,64.238
+		c-7.043,11.803-13.511,22.032-19.418,30.693c-5.899,8.658-10.848,15.037-14.842,19.126c-4,4.093-7.61,7.372-10.852,9.849
+		c-3.237,2.478-5.708,3.525-7.419,3.142c-1.715-0.383-3.33-0.763-4.859-1.143c-2.663-1.714-4.805-4.045-6.42-6.995
+		c-1.622-2.95-2.714-6.663-3.285-11.136c-0.568-4.476-0.904-8.326-1-11.563c-0.089-3.233-0.048-7.806,0.145-13.706
+		c0.198-5.903,0.287-9.897,0.287-11.991c0-7.234,0.141-15.085,0.424-23.555c0.288-8.47,0.521-15.181,0.716-20.125
+		c0.194-4.949,0.284-10.185,0.284-15.705s-0.336-9.849-1-12.991c-0.656-3.138-1.663-6.184-2.99-9.137
+		c-1.335-2.95-3.289-5.232-5.853-6.852c-2.569-1.618-5.763-2.902-9.564-3.856c-10.089-2.283-22.936-3.518-38.547-3.71
+		c-35.401-0.38-58.148,1.906-68.236,6.855c-3.997,2.091-7.614,4.948-10.848,8.562c-3.427,4.189-3.905,6.475-1.431,6.851
+		c11.422,1.711,19.508,5.804,24.267,12.275l1.715,3.429c1.334,2.474,2.666,6.854,3.999,13.134c1.331,6.28,2.19,13.227,2.568,20.837
+		c0.95,13.897,0.95,25.793,0,35.689c-0.953,9.9-1.853,17.607-2.712,23.127c-0.859,5.52-2.143,9.993-3.855,13.418
+		c-1.715,3.426-2.856,5.52-3.428,6.28c-0.571,0.76-1.047,1.239-1.425,1.427c-2.474,0.948-5.047,1.431-7.71,1.431
+		c-2.667,0-5.901-1.334-9.707-4c-3.805-2.666-7.754-6.328-11.847-10.992c-4.093-4.665-8.709-11.184-13.85-19.558
+		c-5.137-8.374-10.467-18.271-15.987-29.691l-4.567-8.282c-2.855-5.328-6.755-13.086-11.704-23.267
+		c-4.952-10.185-9.329-20.037-13.134-29.554c-1.521-3.997-3.806-7.04-6.851-9.134l-1.429-0.859c-0.95-0.76-2.475-1.567-4.567-2.427
+		c-2.095-0.859-4.281-1.475-6.567-1.854l-78.229,0.568c-7.994,0-13.418,1.811-16.274,5.428l-1.143,1.711
+		C0.288,140.146,0,141.668,0,143.763c0,2.094,0.571,4.664,1.714,7.707c11.42,26.84,23.839,52.725,37.257,77.659
+		c13.418,24.934,25.078,45.019,34.973,60.237c9.897,15.229,19.985,29.602,30.264,43.112c10.279,13.515,17.083,22.176,20.412,25.981
+		c3.333,3.812,5.951,6.662,7.854,8.565l7.139,6.851c4.568,4.569,11.276,10.041,20.127,16.416
+		c8.853,6.379,18.654,12.659,29.408,18.85c10.756,6.181,23.269,11.225,37.546,15.126c14.275,3.905,28.169,5.472,41.684,4.716h32.834
+		c6.659-0.575,11.704-2.669,15.133-6.283l1.136-1.431c0.764-1.136,1.479-2.901,2.139-5.276c0.668-2.379,1-5,1-7.851
+		c-0.195-8.183,0.428-15.558,1.852-22.124c1.423-6.564,3.045-11.513,4.859-14.846c1.813-3.33,3.859-6.14,6.136-8.418
+		c2.282-2.283,3.908-3.666,4.862-4.142c0.948-0.479,1.705-0.804,2.276-0.999c4.568-1.522,9.944-0.048,16.136,4.429
+		c6.187,4.473,11.99,9.996,17.418,16.56c5.425,6.57,11.943,13.941,19.555,22.124c7.617,8.186,14.277,14.271,19.985,18.274
+		l5.708,3.426c3.812,2.286,8.761,4.38,14.853,6.283c6.081,1.902,11.409,2.378,15.984,1.427l73.087-1.14
+		c7.229,0,12.854-1.197,16.844-3.572c3.998-2.379,6.373-5,7.139-7.851c0.764-2.854,0.805-6.092,0.145-9.712
+		C546.782,404.25,546.115,401.725,545.451,400.298z"/>
+</g>
+</svg>
+</a></li>
+                <li><a href="#"><?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M612,116.258c-22.525,9.981-46.694,16.75-72.088,19.772c25.929-15.527,45.777-40.155,55.184-69.411
+			c-24.322,14.379-51.169,24.82-79.775,30.48c-22.907-24.437-55.49-39.658-91.63-39.658c-69.334,0-125.551,56.217-125.551,125.513
+			c0,9.828,1.109,19.427,3.251,28.606C197.065,206.32,104.556,156.337,42.641,80.386c-10.823,18.51-16.98,40.078-16.98,63.101
+			c0,43.559,22.181,81.993,55.835,104.479c-20.575-0.688-39.926-6.348-56.867-15.756v1.568c0,60.806,43.291,111.554,100.693,123.104
+			c-10.517,2.83-21.607,4.398-33.08,4.398c-8.107,0-15.947-0.803-23.634-2.333c15.985,49.907,62.336,86.199,117.253,87.194
+			c-42.947,33.654-97.099,53.655-155.916,53.655c-10.134,0-20.116-0.612-29.944-1.721c55.567,35.681,121.536,56.485,192.438,56.485
+			c230.948,0,357.188-191.291,357.188-357.188l-0.421-16.253C573.872,163.526,595.211,141.422,612,116.258z"/>
+	</g>
+</g>
+</svg>
+</a></li>
+                <li><a href="#"><?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M490.24,113.92c-13.888-24.704-28.96-29.248-59.648-30.976C399.936,80.864,322.848,80,256.064,80
+			c-66.912,0-144.032,0.864-174.656,2.912c-30.624,1.76-45.728,6.272-59.744,31.008C7.36,138.592,0,181.088,0,255.904
+			C0,255.968,0,256,0,256c0,0.064,0,0.096,0,0.096v0.064c0,74.496,7.36,117.312,21.664,141.728
+			c14.016,24.704,29.088,29.184,59.712,31.264C112.032,430.944,189.152,432,256.064,432c66.784,0,143.872-1.056,174.56-2.816
+			c30.688-2.08,45.76-6.56,59.648-31.264C504.704,373.504,512,330.688,512,256.192c0,0,0-0.096,0-0.16c0,0,0-0.064,0-0.096
+			C512,181.088,504.704,138.592,490.24,113.92z M192,352V160l160,96L192,352z"/>
+	</g>
+</g>
+</svg>
+</a></li>
+                <li><a href="#"><svg height="511pt" viewBox="0 0 511 511.9" width="511pt" xmlns="http://www.w3.org/2000/svg"><path d="m510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5-16.296876-6.300781-34.898438-10.699219-62.097657-11.898438-27.402343-1.300781-36.101562-1.601562-105.601562-1.601562s-78.199219.300781-105.5 1.5c-27.199219 1.199219-45.898438 5.601562-62.097657 11.898438-17.203124 6.5-32.601562 16.5-45.402343 29.601562-13 12.800781-23.097657 28.300781-29.5 45.300781-6.300781 16.300781-10.699219 34.898438-11.898438 62.097657-1.300781 27.402343-1.601562 36.101562-1.601562 105.601562s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438 12.800781 13 28.300781 23.101562 45.300781 29.5 16.300781 6.300781 34.898438 10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5c27.199219-1.199219 45.898438-5.597657 62.097657-11.898438 34.402343-13.300781 61.601562-40.5 74.902343-74.898438 6.296876-16.300781 10.699219-34.902343 11.898438-62.101562 1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657 1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876-11.097657-4.101562-21.199219-10.601562-29.398438-19.101562-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5 1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5 4.101562-11.101562 10.601562-21.199219 19.203124-29.402343 8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343 0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5 103.398438s-.300781 76.300781-1.5 103.300781zm0 0"/><path d="m256.449219 124.5c-72.597657 0-131.5 58.898438-131.5 131.5s58.902343 131.5 131.5 131.5c72.601562 0 131.5-58.898438 131.5-131.5s-58.898438-131.5-131.5-131.5zm0 216.800781c-47.097657 0-85.300781-38.199219-85.300781-85.300781s38.203124-85.300781 85.300781-85.300781c47.101562 0 85.300781 38.199219 85.300781 85.300781s-38.199219 85.300781-85.300781 85.300781zm0 0"/><path d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0"/></svg></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="hidden">
+      <div class="modal-form" id="success-window">
+        <div class="modal-form-content">
+          <div class="modal-form__heading">
+            <div class="title">Заявка принята!</div>
+            <div class="description">Эксперт по оценке свяжется с вами в ближайшее время.</div>
+          </div>
+        </div>
+        <div class="modal-form-close"></div>
+      </div>
+      <div class="modal-form" id="callback">
+        <div class="modal-form-content">
+          <div class="modal-form__heading">
+            <div class="title">Заказать бесплатную консультацию</div>
+            <div class="description">Оставьте номер телефона и менеджер связжется с вами в ближайшее время.</div>
+          </div>
+          <form class="form">
+            <div class="fields-block">
+              <input type="text" placeholder="Ваше имя" required>
+              <input type="tel" placeholder="Ваш телефон" required id="phone">
+            </div>
+            <div class="buttons-block">
+              <div class="close-form popup-close">Отмена</div>
+              <div class="check-block">
+                <label class="c-check">
+                  <input type="checkbox" name="polit" value="chchhc" checked="checked" required><span class="c-check__label"><span class="check"></span><span class="check-agreement">Согласие на обработку Персональных данных</span></span>
+                </label>
+              </div>
+              <button class="btn" type="button">Заказать звонок</button>
+              <button class="hidden-submit" style="display:none" type="submit"></button>
+            </div>
+          </form>
+        </div>
+        <div class="modal-form-close"></div>
+      </div>
+      <div class="modal-form" id="modal_question">
+        <div class="modal-form-content">
+          <div class="modal-form__heading">
+            <div class="title">Задать вопрос</div>
+            <div class="description">Все поля обязательны для заполнения</div>
+          </div>
+          <form class="form">
+            <div class="fields-block">
+              <input type="text" placeholder="Ваше имя" required>
+              <input type="email" placeholder="Ваш email" required>
+              <textarea rows="3" placeholder="Ваш вопрос" required></textarea>
+            </div>
+            <div class="buttons-block">
+              <div class="close-form popup-close">Отмена</div>
+              <div class="check-block">
+                <label class="c-check">
+                  <input type="checkbox" name="polit" value="chchhc" checked="checked" required><span class="c-check__label"><span class="check"></span><span class="check-agreement">Согласие на обработку Персональных данных</span></span>
+                </label>
+              </div>
+              <button class="btn" type="button">Отправить</button>
+              <button class="hidden-submit" style="display:none" type="submit"></button>
+            </div>
+          </form>
+        </div>
+        <div class="modal-form-close"></div>
+      </div>
+      <div class="modal-form" id="leave_review">
+        <div class="modal-form-content">
+          <div class="modal-form__heading">
+            <div class="title">Ваша оценка нашей работы</div>
+          </div>
+          <form class="form">
+            <div class="fields-block">
+              <div class="options-review">
+                <div class="description">Оцените по каждому критерию</div>
+                <div class="options-review-item">
+                  <div class="title">Время ответа<span class="value">
+                      <div class="rating">
+                        <div class="raiting">
+                          <input class="rating" type="radio" value="1" style="display:none">
+                          <input class="rating" type="radio" value="2" style="display:none">
+                          <input class="rating" type="radio" value="3" style="display:none">
+                          <input class="rating" type="radio" value="4" style="display:none">
+                          <input class="rating" type="radio" value="5" style="display:none">
+                        </div>
+                      </div></span></div>
+                </div>
+                <div class="options-review-item">
+                  <div class="title">Вежливость<span class="value">
+                      <div class="rating">
+                        <div class="raiting">
+                          <input class="rating" type="radio" value="1" style="display:none">
+                          <input class="rating" type="radio" value="2" style="display:none">
+                          <input class="rating" type="radio" value="3" style="display:none">
+                          <input class="rating" type="radio" value="4" style="display:none">
+                          <input class="rating" type="radio" value="5" style="display:none">
+                        </div>
+                      </div></span></div>
+                </div>
+                <div class="options-review-item">
+                  <div class="title">Решение вопроса<span class="value">
+                      <div class="rating">
+                        <div class="raiting">
+                          <input class="rating" type="radio" value="1" style="display:none">
+                          <input class="rating" type="radio" value="2" style="display:none">
+                          <input class="rating" type="radio" value="3" style="display:none">
+                          <input class="rating" type="radio" value="4" style="display:none">
+                          <input class="rating" type="radio" value="5" style="display:none">
+                        </div>
+                      </div></span></div>
+                </div>
+              </div>
+              <div class="joined-block">
+                <div class="form-block_attach-field">
+                  <label class="pick-file">
+                    <input type="file" name="file">
+                    <div class="label-block"><span class="label"><span class="image"></span><span class="name">Добавить фото</span></span>
+                      <div class="result" style="display:none;"></div>
+                    </div>
+                  </label>
+                </div>
+                <input type="text" placeholder="Ваше имя*" required>
+              </div>
+              <textarea rows="7" placeholder="Ваш отзыв" required></textarea>
+            </div>
+            <div class="buttons-block">
+              <div class="close-form popup-close">Отмена</div>
+              <div class="check-block">
+                <label class="c-check">
+                  <input type="checkbox" name="polit" value="chchhc" checked="checked" required><span class="c-check__label"><span class="check"></span><span class="check-agreement">Согласие на обработку Персональных данных</span></span>
+                </label>
+              </div>
+              <button class="btn" type="button">Отправить</button>
+              <button class="hidden-submit" style="display:none" type="submit"></button>
+            </div>
+          </form>
+        </div>
+        <div class="modal-form-close"></div>
+      </div>
+    </div>
+    <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=89d3e820-102b-4d3c-9d71-cddaea7db471"></script>
+    <script src="js/select2.js" type="text/javascript"></script>
+    <script src="js/rating/rating.js" type="text/javascript"></script>
+    <script src="js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+    <script src="js/jquery.maskedinput.js" type="text/javascript"></script>
+    <script src="js/index.js" type="text/javascript"></script>
+  </body>
+</html>
